@@ -2,6 +2,7 @@
 const authorizeUrl = 'https://www.facebook.com/v10.0/dialog/oauth';
 const options = {
   client_id: '1243292162768569',
+  // redirect_uri: 'http://localhost:3000/oauth',
   redirect_uri: 'https://fb-outh-by-nour.herokuapp.com/oauth',
   state: 'some_random_string',
 };
