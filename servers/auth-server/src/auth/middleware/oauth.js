@@ -90,3 +90,17 @@ async function getUser(remoteUser) {
     return output;
   }
 }
+
+
+// async function getUser(remoteUser) {
+//   const user = {
+//     username: remoteUser.login,
+//     password: 'xxxx',
+//   };
+
+//   const userObj = new User(user);
+//   const userDoc = userObj.save();
+
+//   const token = userDoc.token;
+//   return [user, token];
+// }
